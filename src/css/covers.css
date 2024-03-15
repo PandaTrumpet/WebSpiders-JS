@@ -1,0 +1,91 @@
+#covers{
+    margin: 0 auto;
+    background-color: rgba(217, 217, 217, 0.04);
+    background-image: url(../img/covers_elements/element1.png), url(../img/covers_elements/element2.png), url(../img/covers_elements/element2.png);
+    background-position: 10% 40%, 130% 170%, 80% -49% ;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    max-height: 960px;
+    backdrop-filter: blur(-30%);
+}  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  img{
+    width: 544px !important;;
+    height: 314px !important;;
+  }
+  .content {
+    position: relative;
+    width: 1440px;
+    height: 960px;
+    overflow: hidden;
+  }
+  .marquee {
+    font-family: "Pridi", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  .marquee_6{
+    position: absolute;
+    top: -23.45%;
+    left: 93.45%;
+
+  }
+  .marquee_1{
+    position: absolute;
+    top: -15.32%;
+   left:20.40%;
+
+  }
+  .marquee_2{
+    position: absolute;
+    top: 2.05%;
+   left: 60.56%;
+  }
+  .marquee_5{
+    position: absolute;
+    top: 11.66%;
+   left: -7.01%;
+  }
+  .marquee_10{
+    position: absolute;
+    top: 21.85%;
+   left: 35.75%;
+  }
+  .marquee_3{
+    position: absolute;
+    top: 46.34%;
+   left:70.61%;
+  }
+  .marquee_4{
+    position: absolute;
+    top: 54.88%;
+   left:2.27%;
+  }
+  .marquee_7{
+    position: absolute;
+    top: 72.49%;
+   left:42.69%;
+  }
+  .marquee_8{
+    position: absolute;
+    top: 83.87%;
+   left:90.72%;
+  }
+  .marquee_9{
+    position: absolute;
+    top: 92.49%;
+    left: -5.23%;
+  }
+  
+  .marquee__inner img {
+    transform: rotate(16deg);
+   
+  }
+  
+  .marquee__line {
+  }
